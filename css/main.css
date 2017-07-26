@@ -1,0 +1,114 @@
+
+body {
+    position: relative;
+    background-image: url("https://image.ibb.co/bOCNd5/images.png");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid a:link {
+  text-decoration: none;
+  color: #afafaf;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3d3d3d;
+  text-shadow: 1px 1px 1px #000000; 
+  text-transform: uppercase;
+}
+
+.skills img {
+  display: block;
+  margin: auto;
+  width: 350px;
+}
+
+#web{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.navbar {
+   opacity: 0.9;
+}
+
+.navbar a span {
+ font-family: 'Merienda One', cursive;
+}
+
+.info {
+  text-align: center;
+  margin-top: 250px;
+  text-transform: uppercase;
+  display: none;
+}
+
+.info span{
+  text-shadow: 2px 2px #2d2d2d;
+  font-size: 3rem;
+  font-family: 'Gabriela', serif;
+  color: #ed9a36;
+}
+ 
+#home .btn {
+  box-shadow: 10px 10px 5px #888888;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+}
+
+h1, h3, h4 {
+  color: #a7acb2;
+}
+
+.container  h3, h4 {
+  text-transform: uppercase;
+}
+
+.container-fluid h1 , h3, h4 , p {
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.row {
+  padding: 50px 3px 0 3px ;
+}
+
+
+.row p, label {
+  font-size: 18px;
+  font-family: 'Gabriela', serif;
+  color: #f7f6f4;
+}
+
+#card p {
+    font-size: 1rem;
+  }
+
+.proj {
+  padding: 7px;
+}
+
+#contact img {
+  display: inline-block;
+  width: 30px;
+  margin: 30px 5px;
+}
+
+footer {
+  margin-top: 170px;
+  height: 50px;
+  background: #2f2f30;
+  font-family: 'Merienda One', cursive;
+}
+
+p {
+margin-bottom: 0;
+}
